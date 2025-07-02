@@ -21,10 +21,7 @@ public class task5{
 
      int greatest = nums.get(2);
 
-        
-        boolean hasEqual = false;
         if (nums.get(0).equals(nums.get(1)) || nums.get(1).equals(nums.get(2)) || nums.get(0).equals(nums.get(2))) {
-            hasEqual = true;
             System.out.println("There is/are equal value(s) among the inputs.");
         }
 
