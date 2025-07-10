@@ -7,7 +7,7 @@ public class task10 {
             new Student("Kevin","Spacey"),
         };
         for(Student s : students) {
-            s.printFullname();
+            System.out.println(s.printFullname());
         }
         }
 
@@ -21,8 +21,8 @@ public class task10 {
             this.firstName = firstName;
             this.lastName = lastName;
         }
-        public void printFullname(){
-            System.out.println(firstName + " " + lastName);
+        public String printFullname(){
+            return firstName + " " + lastName;
         }
     }
 
