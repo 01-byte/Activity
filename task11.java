@@ -23,7 +23,7 @@ public Book(String title , String author , int yearPublished,double price ) {
      this.yearPublished = yearPublished;
      this.price = price;
     }
-   public String toString() {  // YES, this *must* override Object.toString()
+   public String toString() {  
         return "Title: " + title +
                "\nAuthor: " + author +
                "\nYear Published: " + yearPublished +
