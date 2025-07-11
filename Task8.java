@@ -8,8 +8,8 @@ public class Task8 {
     static void cummulativeSum (int ... numbers){
         int sum = 0;
         for (int number : numbers) {
-            int partialSum = number * (number + 1) / 2; 
-            sum += partialSum;
+            int sum2 = number * (number + 1) / 2; 
+            sum += sum2;
         }
         System.out.println(sum);
 
