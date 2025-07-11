@@ -1,18 +1,17 @@
 import java.util.Arrays;
 
-public class CumulativeSum {
+public class Task8 {
 
     public static int[] calculateCumulativeSum(int[] arr) {
         if (arr == null || arr.length == 0) {
-            return new int[0]; // Return an empty array for empty or null input
-        }
+            return new int[0];
 
         int[] cumulativeSums = new int[arr.length];
         int currentSum = 0;
 
         for (int i = 0; i < arr.length; i++) {
-            currentSum += arr[i]; // Add the current element to the running sum
-            cumulativeSums[i] = currentSum; // Store the cumulative sum at the current index
+            currentSum += arr[i]; 
+            cumulativeSums[i] = currentSum; 
         }
 
         return cumulativeSums;

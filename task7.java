@@ -1,12 +1,12 @@
 import java.util.*;
 
 
-public class methodLesson{
+public class task7{
 
     public static void main(String[] args){
           int a ; 
     int b ;
-        methodLesson ml = new methodLesson();
+        task7 ml = new task7();
         Scanner scan = new Scanner(System.in);
         System.out.print("Input 1st number : ");
          a = scan.nextInt();
