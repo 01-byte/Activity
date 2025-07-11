@@ -7,10 +7,11 @@ public class Task8 {
 
     static void cummulativeSum (int ... numbers){
         int sum = 0;
-        for (int number : numbers){
-           sum += number;
+        for (int number : numbers) {
+            int partialSum = number * (number + 1) / 2; 
+            sum += partialSum;
         }
         System.out.println(sum);
-    }
 
+}
 }
