@@ -1,3 +1,4 @@
+package tasks;
 public class task11 {
     public static void main(String[] args) {
         Book book1 = new Book("Java Programming","John Smith", 2021, 39.99);

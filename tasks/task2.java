@@ -1,3 +1,4 @@
+package tasks;
 public class task2{
     public static void main(String[] args){
         //  H3110 w0rld 2.0 true
